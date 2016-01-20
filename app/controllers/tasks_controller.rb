@@ -1,7 +1,7 @@
 require 'pry'
 class TasksController < ApplicationController
 
-# Parses the json and creates a new Task, calling the resize function and returning json
+# Parses the json and creates a new Task, calling the resize function and rendering the output as json
 
   def create
     @image_dimensions = params[:image_dimensions]
